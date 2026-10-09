@@ -4,6 +4,9 @@ The original plan for the reader and its home-screen widget, written 2026-10-03.
 module (M5) of [As-Sa'ee](https://github.com/as-saee/assaee-docs); the widget diagnosis below is from code reading and
 still to be confirmed on a device.
 
+> **Superseded in part:** the "local only, no sync" decision below predates As-Sa'ee. The reader module now uses
+> offline-first sync through the platform API; see [ADR 0001](https://github.com/as-saee/assaee-docs/blob/main/docs/adr/0001-platform-and-product-decisions.md).
+
 ## Progress
 - [ ] **Phase 1: Clean import + a widget you can read a whole book from**
   - [ ] 1a. Clean-text import pipeline (extract, drop headers/footers, de-hyphenate, join paragraphs, split into sentences)
